@@ -20,12 +20,12 @@ G2L["Frame_2"].Size = UDim2.new(0.32297,0,0.45989,0)
 G2L["Frame_2"].Position = UDim2.new(0.32468,0,0.24527,0)
 
 -- Título
-G2L["Titulo_3"] = Instance.new("TextLabel", G2L["Frame_2"])
+G2L["Titulo_3"] = Instance.new("Key", G2L["Frame_2"])
 G2L["Titulo_3"].TextWrapped = true
 G2L["Titulo_3"].TextScaled = true
 G2L["Titulo_3"].BackgroundTransparency = 1
 G2L["Titulo_3"].TextColor3 = Color3.fromRGB(255,255,255)
-G2L["Titulo_3"].Text = "Sistema de key (Nome do seu script)"
+G2L["Titulo_3"].Text = "Rogue Demon Script"
 G2L["Titulo_3"].Position = UDim2.new(-0.04762,0,0.1,0)
 G2L["Titulo_3"].Size = UDim2.new(1.07407,0,0.325,0)
 G2L["Titulo_3"].FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]])
@@ -48,7 +48,7 @@ G2L["TextLabel_7"].TextWrapped = true
 G2L["TextLabel_7"].TextScaled = true
 G2L["TextLabel_7"].BackgroundTransparency = 1
 G2L["TextLabel_7"].TextColor3 = Color3.fromRGB(255,252,252)
-G2L["TextLabel_7"].Text = "Key no nosso discord"
+G2L["TextLabel_7"].Text = "Pegar Key no Discord"
 G2L["TextLabel_7"].Position = UDim2.new(0.08466,0,0.63333,0)
 G2L["TextLabel_7"].Size = UDim2.new(0.79365,0,0.09167,0)
 G2L["TextLabel_7"].FontFace = Font.new([[rbxasset://fonts/families/FredokaOne.json]])
@@ -59,10 +59,10 @@ G2L["ColocarLinkDaKeyDiscord_8"].TextWrapped = true
 G2L["ColocarLinkDaKeyDiscord_8"].TextScaled = true
 G2L["ColocarLinkDaKeyDiscord_8"].TextColor3 = Color3.fromRGB(255,255,255)
 G2L["ColocarLinkDaKeyDiscord_8"].BackgroundColor3 = Color3.fromRGB(40,106,255)
-G2L["ColocarLinkDaKeyDiscord_8"].Text = "Copiar Link da key (https://discord.gg/2WxRnXK4Jk) 🔗"
+G2L["ColocarLinkDaKeyDiscord_8"].Text = "Adquirir Key 🔗"
 G2L["ColocarLinkDaKeyDiscord_8"].Position = UDim2.new(0.12169,0,0.75833,0)
 G2L["ColocarLinkDaKeyDiscord_8"].Size = UDim2.new(0.60847,0,0.175,0)
-Instance.new("UICorner", G2L["ColocarLinkDaKeyDiscord_8"])
+Instance.new("UICorner", G2L["https://discord.gg/2WxRnXK4Jk"])
 
 -- Botão enviar key
 G2L["ClicarParaEnviarKey_a"] = Instance.new("TextButton", G2L["Frame_2"])
